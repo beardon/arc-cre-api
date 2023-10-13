@@ -1,0 +1,52 @@
+env:
+  es6: true
+  node: true
+extends:
+  - 'eslint:recommended'
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+parserOptions:
+  ecmaVersion: 2018
+plugins:
+  - json
+rules:
+  indent:
+    - error
+    - 4
+    - SwitchCase: 1
+      flatTernaryExpressions: true
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - always
+  no-unused-vars:
+    - error
+    - args: none
+  object-curly-spacing:
+    - error
+    - always
+  array-bracket-spacing:
+    - error
+    - always
+  template-curly-spacing:
+    - error
+    - always
+  space-infix-ops:
+    - error
+  comma-dangle:
+    - error
+    - always-multiline
+  comma-spacing:
+    - error
+  no-console:
+    - error
+    - allow: [ "info", "warn", "error" ]
+  eol-last:
+    - error
+    - always

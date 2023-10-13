@@ -1,0 +1,30 @@
+{
+  "name": "arc-cre-api",
+  "description": "Promise-driven accessor for the ARC Course Record Entry (CRE) LMS Experience",
+  "version": "0.0.1",
+  "keywords": [
+    "api",
+    "async",
+    "ARC",
+    "Course Record Entry",
+    "CRE",
+    "LMS",
+    "promise",
+    "Red Cross"
+  ],
+  "homepage": "https://github.com/beardon/arc-cre-api",
+  "bugs": {
+    "url": "https://github.com/beardon/arc-cre-api/issues",
+    "email": "aaron.bean@beardon.com"
+  },
+  "author": {
+    "name": "Aaron Bean",
+    "email": "aaron.bean@beardon.com",
+    "url": "https://github.com/aaronbean"
+  },
+  "main": "./lib/ArcCre.js",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "lodash": "^4.17.21"
+  }
+}
