@@ -1,16 +1,16 @@
 {
   "name": "arc-cre-api",
-  "description": "Promise-driven accessor for the ARC Course Record Entry (CRE) LMS Experience",
-  "version": "0.0.1",
+  "description": "Promise-driven accessor for the American Red Cross (ARC) Course Record Entry (CRE) LMS Experience",
+  "version": "0.1.0",
   "keywords": [
+    "American Red Cross",
     "api",
     "async",
     "ARC",
     "Course Record Entry",
     "CRE",
     "LMS",
-    "promise",
-    "Red Cross"
+    "promise"
   ],
   "homepage": "https://github.com/beardon/arc-cre-api",
   "bugs": {
