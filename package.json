@@ -1,7 +1,7 @@
 {
   "name": "arc-cre-api",
   "description": "Promise-driven accessor for the American Red Cross (ARC) Course Record Entry (CRE) LMS Experience",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "keywords": [
     "American Red Cross",
     "api",
@@ -24,7 +24,7 @@
   },
   "main": "./lib/ArcCre.js",
   "dependencies": {
-    "axios": "^1.5.1",
+    "axios": "^1.6.7",
     "lodash": "^4.17.21"
   }
 }
